@@ -1,0 +1,604 @@
+
+header {
+  min-width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* navbar */
+
+.container-fluid{
+  background-color: rgb(243, 180, 63);
+  padding: 20px;
+  margin: 10px;
+}
+
+.navbar-nav{
+  background: rgb(243, 180, 63);
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding-left: 70px;
+  font-size: 20px;
+  border-spacing: 10px;
+}
+
+.icono{
+  width: 48px;
+  height: 48px;
+  border-radius: 10px;
+}
+
+.compra{
+  text-align: right;
+  width: 50px;
+  max-height: 50px;
+}
+
+/* titulo principal */
+
+  h1{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 25px;
+}
+
+/* fondo de pantalla */
+
+body{
+  background-image: url(../imagenes/Meteor.svg);
+}
+
+/* flexbox */
+
+.hijo{
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+
+p{
+  text-align: center; 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+  margin: 10px;
+}
+
+/* inicio / index */
+
+.pielBonitaI{
+  background-image: url(../pages/imagenes/pielbonita.jpg);
+  height: 500px;
+  width: 700px;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.nourishI{
+  background-image: url(../pages/imagenes/Nourish.png);
+  height: 400px;
+  width: 600px;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+/* conocenos */
+
+.inicios{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: left;
+  margin: 5px;
+}
+
+.pbii{
+  background-image: url(../imagenes/pielbonitaii.jpg);
+  padding: 10px;
+  margin: 10px;
+  width:400px;
+  height: 400px;
+  border-radius: 5px;
+}
+
+.nou{
+  padding: 10px;
+  margin: 10px;
+  width:400px;
+  height: 400px;
+}
+
+.video{
+  background-image: url(https://youtu.be/-gfDdrk9fjw);
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  width: auto;
+}
+
+/* productos */
+
+.tecno,.nutri, .ap, .collagen, .clear, .nucolor{
+  height: 400px;
+  width: 400px;
+  padding-left: 10px;
+}
+
+
+/* subtitulo */
+
+.folletos{
+  margin: 30px;
+}
+
+/* catalogos, grid */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4,220px);
+  grid-template-rows: repeat(5,220px);
+  margin: 50px;
+  align-content: center;
+
+}
+
+/* Hijos de grid */
+
+.grid-item {
+  background-color: #f7b661;
+  border: 5px solid rgb(249, 180, 53);
+  margin: 20px;
+  padding: 15px;
+  padding-top: 35px;
+  padding-left: 35px;  
+  font-size: 30px;
+}
+
+.dis{
+  grid-column: 1/5;
+}
+
+.dispo{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 50px;
+  text-align: center;
+  color:#fa920a solid 2px;
+}
+
+/* ayuda */  
+
+.video-ayuda{
+  margin: 20px;
+}
+
+.pago{
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  margin: 20px;
+}
+
+/* contactese */
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding-bottom: 30px;
+}
+
+
+label {
+  margin: 10px;
+  font-weight: bold;
+  float: left;
+}
+input[type="text"],
+textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: none;
+  margin-bottom: 10px;
+}
+[type="submit"],[type="reset"],[type="button"] {
+  background-color:rgb(255, 166, 1);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* footer */
+
+.redes{
+  text-align: left;
+  padding: 5px;
+  margin: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-decoration: underline;
+}
+
+.card{
+  width: 30rem;
+}
+
+.card-img-top{
+  display: flex;
+  justify-content: center;
+  background-color: #f8c889;
+  width: 100%;
+}
+
+.card-body{
+  background-color: #f7b661;
+}
+
+.card-text{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+  display: flexbox;
+  justify-content: space-between;
+}
+
+.footer-box {
+  flex-direction: column;
+  flex-direction: row;
+  padding: 5px 0px;
+  background-color:#f8c889;
+}
+
+.regular-text{
+  text-align: center;
+  font-size: small;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btn-footer{
+  display: flex;
+  justify-content: center;
+}
+
+
+.btn{
+  background-color: #fa920a;
+  display: inline-block;
+  text-decoration: none;
+  margin: 10px;
+  padding: 5px;
+}
+
+.icono-footer{
+  width: 48px;
+  height: 48px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.nombre{
+  font-weight: bold;
+  font-size: 15px;
+}
+
+/* Media queries (max-width: 600px) */
+  /* index */
+
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+
+  .hijo {
+    display: grid;
+    grid-template-columns: repeat(1);
+    grid-template-rows: repeat(4);
+    justify-content: center;
+  }
+
+  .pielBonitaI {
+    height: 400px;
+    width: 300px;
+    margin-left: 40px;
+  }
+
+  .nourishI {
+    height: 250px;
+    width: 300px;
+    margin-left: 40px;
+  }
+
+  .pielBonita, .nourish{
+    width: 70%;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 50px;
+  }
+
+  .redes{
+    margin-left: 20px;
+  }
+
+  .card-text {
+    width: 70%;
+    font-size: 20px;
+    text-align: start;
+  }
+
+  .card-body {
+    width: 30rem;
+  }
+
+  .btn-footer {
+    display: block;
+    width: 70%;
+    margin-left: 30px;
+
+  }
+
+  .card-img,
+  .card-img-bottom,
+  .card-img-top {
+    width: 70%;
+    display: flex;
+    text-align: left;
+  }
+
+    .container{
+    width: 120%;
+  }
+
+  .regular-text{
+    width: 60%;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 50px;
+  }
+
+  .nombre {
+    font-size: 15px;
+  }
+}
+
+/* Media queries (max-width: 1023px) */
+/* index */
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+  .container-fluid{
+    width: 64%;
+  }
+
+  h1 {
+    text-align: start;
+    margin-left: 70px;
+  }
+
+  .hijo {
+    display: grid;
+    grid-template-columns: repeat(1);
+    grid-template-rows: repeat(4);
+    justify-content: center;
+    width: 100%;
+  }
+
+  .pielBonitaI {
+    height: 500px;
+    width: 400px;
+    margin: 30px;
+  }
+
+  .nourishI {
+    height: 350px;
+    width: 400px;
+    margin: 30px;
+  }
+
+  .pielBonita, .nourish{
+    width: 60%;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .card-text {
+    width: 100%;
+    font-size: 20px;
+  }
+
+  .card-body {
+    width: 30rem;
+  }
+
+  .btn-footer {
+    display: block;
+    margin: 15px;
+    width: 50%;
+  }
+
+  .btn{
+    width: 30%;
+    font-size: 15px;
+  }
+
+  .card-img,
+  .card-img-bottom,
+  .card-img-top {
+    width: 100%;
+    display: flex;
+    text-align: left;
+  }
+
+  .container{
+    width: 100%;
+  }
+
+  .regular-text{
+    width: 100%;
+  }
+
+  .nombre {
+    font-size: 15px;
+  }
+}
+
+/* Media queries (max-width: 1200px)  */
+  /* index */
+
+@media screen and (min-width: 1024px) and (max-width: 1200px){
+
+  .container-fluid{
+    width: 90%;
+  }
+
+  h1 {
+    text-align: start;
+    margin-left: 150px;
+  }
+
+.hijo{
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+
+p{
+  text-align: center; 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+  margin: 10px;
+}
+
+  .pielBonitaI {
+    height: 550px;
+    width: 450px;
+    margin: 30px;
+  }
+
+  .nourishI {
+    height: 350px;
+    width: 400px;
+    margin: 70px;
+  }
+
+  .pielBonita, .nourish{
+    width: 30%;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .card-text {
+    width: 100%;
+    font-size: 25px;
+  }
+
+  .card-body {
+    width: 30rem;
+  }
+
+  .btn-footer {
+    display: block;
+    margin: 15px;
+    width: 30%;
+  }
+
+  .btn{
+    width: 100%;
+    font-size: 25px;
+  }
+
+  .card-img,
+  .card-img-bottom,
+  .card-img-top {
+    width: 100%;
+    display: flex;
+    text-align: left;
+  }
+
+  .container{
+    width: 100%;
+  }
+
+  .regular-text{
+    width: 70%;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .nombre {
+    font-size: 20px;
+  }
+}
+
+/* Media queries (max-width: 600px)*/
+/* producto */
+
+@media screen and (mind-width: 320px) and (max-width: 600px) {
+
+h2{
+    margin-left: 50%;
+  }
+
+  h3{
+    margin-left: 50px;
+    text-align: center;
+}
+
+.tecno .nutri .ap .collagen .clear .nucolor{
+      height: 70px;
+      width: 70px;
+      padding: 10px;
+      margin-left: 40px;
+    }
+
+.hijo p{
+  text-align: start;
+  width: 30%;
+  font-size: 20px;
+}
+
+    .redes{
+      margin-left: 20px;
+    }
+  
+    .card-text {
+      width: 70%;
+      font-size: 20px;
+      text-align: start;
+    }
+  
+    .card-body {
+      width: 30rem;
+    }
+  
+    .btn-footer {
+      display: block;
+      width: 70%;
+      margin-left: 30px;
+  
+    }
+  
+    .card-img,
+    .card-img-bottom,
+    .card-img-top {
+      width: 70%;
+      display: flex;
+      text-align: left;
+    }
+  
+      .container{
+      width: 120%;
+    }
+  
+    .regular-text{
+      width: 60%;
+      font-size: 15px;
+      text-align: center;
+      margin-left: 50px;
+    }
+  
+    .nombre {
+      font-size: 15px;
+    }
+  }
