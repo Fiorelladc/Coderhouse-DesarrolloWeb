@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="../estilos/estilos.css">
+    <link rel="stylesheet" type="text/css" href="../estilos/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="shortcut icon" href="./imagenes/favicon.ico" type="image/x-icon">
     <title>Piel Bonita - Conocenos</title>
 </head>
@@ -57,7 +58,7 @@
     
     <div class="container-conocenos"> 
     <div class="conoce">
-        <img class="pbii" src="../imagenes/pielbonitaii.jpg" alt="historia">
+        <img class="pbii" data-aos="fade-down" src="../imagenes/pielbonitaii.jpg" alt="historia">
         <p>
             Mi nombre es Fiorella y quiero contarles un poco de como inicio todo este emprendimiento.
             En el año 2014, con dos trabajos vigentes ya que por la mañana era operadora de ventas en un call center y por la tarde, en atencion al publico en locales de indumentaria.
@@ -70,7 +71,7 @@
         <h2>La empresa y su Proyecto Humanitario</h2>
 
     <div class="conoce">
-        <img class="nou" src="../imagenes/nourish2.jpg" alt="empresa">
+        <img class="nou" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" src="../imagenes/nourish2.jpg" alt="empresa">
         <p>
             En Nu Skin nos distinguimos por la habilidad de demostrar que realmente contamos ​con los mejores productos, personas, cultura y plataforma de oportunidad de negocios.
             Nuestras formulaciones y tecnologías de producto nos permiten establecer nuevos estándares en la industria al​ ayudar a reducir la apariencia de los signos de la edad con soluciones que exhiben resultados visibles.​
@@ -78,7 +79,7 @@
             Desde que se creó Nourish the Children en el año 2002, se han proporcionado 750 millones de porciones de VitaMeal a niños en más de 60 países y se les ha dado la oportunidad de prosperar. Sólo en 2018, la iniciativa Nourish the Children proporcionó más de 44 millones de comidas, lo que ayudó a nutrir a más de 120,000 niños todos los días.
         </p>
     </div>
-    <div class="video">
+    <div class="video" data-aos="zoom-out-left">
         <iframe src="https://www.youtube.com/embed/-gfDdrk9fjw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
     </div>
@@ -144,6 +145,9 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

@@ -1,0 +1,31 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 220px);
+    grid-template-rows: repeat(3, 220px);
+    justify-content: center;
+}
+
+.grid-item {
+    background-color: #f7b661;
+    border: 5px solid rgb(248, 170, 3);
+    align-items: center;
+    margin: 20px;
+    padding: 15px;
+    padding-top: 35px;
+    padding-left: 30px;
+    font-size: 30px;
+    
+}
+
+.dis {
+    grid-column: 1/5;
+}
+
+.dispo {
+    text-align: center;
+    color: #fa920a solid 2px;
+    font-size: 20px;
+}
+.folletos{
+    margin: 30px;
+}

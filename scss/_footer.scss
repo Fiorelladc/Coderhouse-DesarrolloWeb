@@ -1,0 +1,67 @@
+.redes{
+    text-align: left;
+    padding: 5px;
+    margin: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+}
+
+.card-img-top{
+    display: flex;
+    justify-content: center;
+    background-color: #f8c889;
+    width: 100%;
+}
+
+.card-body{
+    background-color: #f7b661;
+    .card-text{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+}
+
+.btn-footer{
+    display: flex;
+    justify-content: center;
+}
+    .btn{
+        background-color: #fa920a;
+        display: inline-block;
+        text-decoration: none;
+        margin: 10px;
+        padding: 5px;
+    }
+
+.container{
+    display: flexbox;
+    justify-content: space-between;
+}
+
+.footer-box {
+    flex-direction: column;
+    flex-direction: row;
+    padding: 5px 0px;
+    background-color:#f8c889;
+    .icono-footer{
+        width: 48px;
+        height: 48px;
+        border-radius: 10px;
+        margin: 10px;
+        .regular-text{
+        text-align: center;
+        font-size: small;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            .icono {
+                width: 48px;
+                height: 48px;
+                border-radius: 10px;
+                .nombre{
+                    font-weight: bold;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
