@@ -34,12 +34,12 @@ h3 {
   border-radius: 10px;
 }
 
-container-fluid {
+.container-fluid {
   background-color: rgb(243, 180, 63);
   padding: 20px;
   margin: 10px;
 }
-container-fluid navbar-nav {
+.container-fluid .navbar-nav {
   background: rgb(243, 180, 63);
   display: flex;
   list-style: none;
@@ -47,7 +47,7 @@ container-fluid navbar-nav {
   font-size: 20px;
   border-spacing: 10px;
 }
-container-fluid navbar-nav .icono {
+.container-fluid .navbar-nav .icono {
   width: 48px;
   height: 48px;
   border-radius: 10px;
@@ -122,10 +122,6 @@ p {
   width: 400px;
   padding-left: 10px;
   margin: 10px;
-}
-
-.col p {
-  padding-top: 160px;
 }
 
 .grid-container {
@@ -330,10 +326,6 @@ input[type=text], textarea {
     margin: 0;
     padding-top: 20px;
   }
-  col p {
-    width: auto;
-    padding-top: 0;
-  }
   /* catalogos */
   .grid-container {
     display: block;
@@ -385,6 +377,7 @@ input[type=text], textarea {
   }
   .container {
     width: 100%;
+    text-align: center;
   }
   .regular-text {
     font-size: 10px;
@@ -430,17 +423,14 @@ input[type=text], textarea {
   h2 {
     font-size: 30px;
   }
-  .conoce {
-    display: block;
-    align-items: center;
-  }
   .conoce p {
     font-size: 25px;
     text-align: center;
   }
   .conoce img {
-    align-content: center;
+    justify-content: center;
     width: auto;
+    padding-left: 20%;
     overflow: hidden;
   }
   /* productos */
@@ -450,7 +440,10 @@ input[type=text], textarea {
   .collagen,
   .clear,
   .nucolor {
-    padding-top: 70px;
+    padding-top: 90px;
+    width: 350px;
+    height: 350px;
+    align-items: center;
   }
   .col p {
     padding-top: 90px;
@@ -483,6 +476,10 @@ input[type=text], textarea {
   h3 {
     font-size: 30px;
   }
+  h4 {
+    text-decoration: underline;
+    font-size: 27px;
+  }
   .pago {
     font-family: Arial, sans-serif;
     font-size: 25px;
@@ -492,7 +489,7 @@ input[type=text], textarea {
   form {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     font-family: Arial, sans-serif;
     font-size: 25px;
     margin: 20px;
@@ -500,7 +497,7 @@ input[type=text], textarea {
   }
   input[type=text],
   textarea {
-    padding: 20px;
+    padding: 10px 20px;
     border: 1px solid #ccc;
     border-radius: 4px;
     resize: none;
@@ -516,7 +513,7 @@ input[type=text], textarea {
   }
   .btn-footer {
     flex-wrap: wrap;
-    justify-content: center;
+    text-align: center;
   }
   .btn-footer .btn {
     width: 30%;
@@ -680,16 +677,16 @@ input[type=text], textarea {
   .card-img-top {
     width: 100%;
     display: flex;
-    text-align: left;
+    text-align: center;
   }
   .container {
     width: 100%;
   }
   .regular-text {
     font-size: 20px;
-    text-align: center;
+    padding-left: 40%;
   }
-  .regular-text .nombre {
+  .nombre {
     font-size: 20px;
   }
 }/*# sourceMappingURL=style.css.map */
